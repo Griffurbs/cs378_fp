@@ -1,0 +1,25 @@
+{ "premise": "The people driving the tiny white car were nearly hit by the train, but it had fortunately stopped just in time.", "hypothesis": "The car was nearly hit by a train.", "label": 0 }
+{ "premise": "A woman looking through what appears to be a telescope.", "hypothesis": "A woman looking through a telescope toward the sky.", "label": 1 }
+{ "premise": "a redheaded lady is reading a book while waiting for the train.", "hypothesis": "a woman is reading a book.", "label": 0 }
+{ "premise": "Four girls look at objects under a microscope.", "hypothesis": "Four people look at objects under a microscope.", "label": 0 }
+{ "premise": "Two ladies looking for bread to purchase.", "hypothesis": "The women are eating bread.", "label": 2 }
+{ "premise": "Two men boxing a ring while one boxer is hitting the other.", "hypothesis": "They are playing ring around the rosy.", "label": 2 }
+{ "premise": "A man wearing a red bicycle helmet talking on a cellphone with other people in the background.", "hypothesis": "A man talks on a cellphone.", "label": 0 }
+{ "premise": "a man in pants dancing in a park.", "hypothesis": "A man is outside.", "label": 0 }
+{ "premise": "A man wearing a light blue robe-style jacket is sitting on a street corner playing a musical instrument.", "hypothesis": "The man was playing the guitar on the street.", "label": 1 }
+{ "premise": "As a referee looks on, a Los Angeles baseball player is falling over the top of a rival player who is just sliding into base.", "hypothesis": "The people are playing basketball.", "label": 2 }
+{ "premise": "An old woman in a green and blue plaid shirt is standing on a crowded sidewalk smiling.", "hypothesis": "A woman watching a street performer play guitar.", "label": 1 }
+{ "premise": "An elderly woman wearing sunglasses stands and looks at something.", "hypothesis": "Young woman stomps on her sunglasses.", "label": 2 }
+{ "premise": "A little girl in a red and white shirt stands next to some caricatures of celebrities at an art fair.", "hypothesis": "two women paint in a field", "label": 2 }
+{ "premise": "two women in lab coats looking on a image projected on the wall", "hypothesis": "Some women are in a lab setting.", "label": 0 }
+{ "premise": "Two boys, one wearing green, the other in yellow, are playing with sidewalk chalk, drawing pictures on the ground.", "hypothesis": "Two boys are drawing pictures with pink chalk.", "label": 1 }
+{ "premise": "A firefighter, in full uniform, looks off into the distance.", "hypothesis": "This firefighter is on duty.", "label": 0 }
+{ "premise": "An entertainer in a black shirt with a red tie and red suspenders, in Toronto, is playing with fire.", "hypothesis": "Someone is playing with fire.", "label": 0 }
+{ "premise": "A woman in a pink shirt is painting the last two stars on a painting of the American flag.", "hypothesis": "The woman is painting", "label": 0 }
+{ "premise": "A man in an orange construction vest walks in a parade with a child atop his shoulders, carry balloons.", "hypothesis": "The child has no legs.", "label": 1 }
+{ "premise": "A group of people are running in the cold.", "hypothesis": "A bunch of people moving briskly on a cold day", "label": 0 }
+{ "premise": "Two guys sitting in a room with green and white curtain.", "hypothesis": "Two guys are playing golf.", "label": 2 }
+{ "premise": "A woman in a tan top and jeans is sitting on a bench wearing headphones.", "hypothesis": "A woman is listening to music.", "label": 0 }
+{ "premise": "A musician with short blond-hair and wearing a blue scarf and vest plays a string instrument while singing.", "hypothesis": "Nobody has a scarf.", "label": 2 }
+{ "premise": "During this vacation children enjoying their games at the park.", "hypothesis": "The kids are home", "label": 2 }
+{ "premise": "One little toddler wearing blue pajamas and a little girl wearing red pajamas opening presents on christmas day.", "hypothesis": "A grown man sits and weeps.", "label": 2 }

@@ -3,6 +3,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification, \
     AutoModelForQuestionAnswering, Trainer, TrainingArguments, HfArgumentParser
 from helpers import prepare_dataset_nli, prepare_train_dataset_qa, \
     prepare_validation_dataset_qa, QuestionAnsweringTrainer, compute_accuracy
+from custom_train import CustomTrainer
 import os
 import json
 
@@ -39,6 +40,8 @@ def main():
         By default, "nli" will use the SNLI dataset, and "qa" will use the SQuAD dataset.""")
     argp.add_argument('--dataset', type=str, default=None,
                       help="""This argument overrides the default dataset used for the specified task.""")
+    argp.add_argument('--checklist', type=str, default=None,
+                      help="""This argument adds the opposite of a checklist set to encourage learning""")
     argp.add_argument('--max_length', type=int, default=128,
                       help="""This argument limits the maximum sequence length used during training/evaluation.
         Shorter sequence lengths need less memory and computation time, but some examples may end up getting truncated.""")
@@ -67,6 +70,11 @@ def main():
         # Load the raw data
         dataset = datasets.load_dataset(*dataset_id)
     
+    # Load in the extra dataset
+    checklist = None
+    if args.checklist:
+        checklist = datasets.load_dataset('json', data_files=args.checklist)
+
     # NLI models need to have the output label count specified (label 0 is "entailed", 1 is "neutral", and 2 is "contradiction")
     task_kwargs = {'num_labels': 3} if args.task == 'nli' else {}
 
@@ -96,8 +104,10 @@ def main():
     
     train_dataset = None
     eval_dataset = None
+    checklist_dataset = None
     train_dataset_featurized = None
     eval_dataset_featurized = None
+    checklist_dataset_featurized = None
     if training_args.do_train:
         train_dataset = dataset['train']
         if args.max_train_samples:
@@ -118,9 +128,18 @@ def main():
             num_proc=NUM_PREPROCESSING_WORKERS,
             remove_columns=eval_dataset.column_names
         )
+    if checklist:
+        checklist_dataset = checklist['train']
+        checklist_dataset_featurized = checklist_dataset.map(
+            prepare_train_dataset,
+            batched=True,
+            num_proc=NUM_PREPROCESSING_WORKERS,
+            remove_columns=checklist_dataset.column_names
+        )
+        
 
     # Select the training configuration
-    trainer_class = Trainer
+    trainer_class = CustomTrainer
     eval_kwargs = {}
     # If you want to use custom metrics, you should define your own "compute_metrics" function.
     # For an example of a valid compute_metrics function, see compute_accuracy in helpers.py.
@@ -156,7 +175,10 @@ def main():
     )
     # Train and/or evaluate
     if training_args.do_train:
-        trainer.train()
+        if(checklist):
+            trainer.trainChecklist(trainer.train_dataset, checklist_dataset_featurized, 3)
+        else:
+            trainer.trainHard()
         trainer.save_model()
         # If you want to customize the way the loss is computed, you should subclass Trainer and override the "compute_loss"
         # method (see https://huggingface.co/transformers/_modules/transformers/trainer.html#Trainer.compute_loss).
@@ -167,7 +189,6 @@ def main():
 
     if training_args.do_eval:
         results = trainer.evaluate(**eval_kwargs)
-
         # To add custom metrics, you should replace the "compute_metrics" function (see comments above).
         #
         # If you want to change how predictions are computed, you should subclass Trainer and override the "prediction_step"

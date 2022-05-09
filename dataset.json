@@ -1,0 +1,51 @@
+{ "premise":"An elderly woman pushing a cart filled with boxes walks by theater sign for \"North Pacific\".", "hypothesis":"A tall person pushing a cart", "label":1 }
+{ "premise":"An elderly man pushing a cart filled with boxes walks by theater sign for \"South Pacific\".", "hypothesis":"A person pushing a cart", "label":0 }
+{ "premise":"An elderly woman pushing a car filled with boxes walks by theater sign for \"South Pacific\".", "hypothesis":"Nobody is pushing anything", "label":2 }
+{ "premise": "Female sitting in a chair in front of a hazy window.", "hypothesis": "A woman is waiting for someone.", "label": 1 }
+{ "premise": "Female standing in a chair in front of a hazy field.", "hypothesis": "A woman is sitting.", "label": 2 }
+{ "premise": "Male running in front of a hazy field.", "hypothesis": "A woman runs though a field.", "label": 2 }
+{ "premise": "A woman sits on a bed and puts on her blue socks.", "hypothesis": "A woman is sitting on a bed, taking her socks off", "label": 2 }
+{ "premise": "A woman sits on a bed and puts on her red gloves.", "hypothesis": "A woman is sitting on a bed.", "label": 0 }
+{ "premise": "A woman sits on a bed and puts on her blue gloves.", "hypothesis": "A woman is sitting on her bed, getting dressed for work.", "label": 1 }
+{ "premise": "Three competitors in the last leg of a race, strong legs, long strides to the end.", "hypothesis": "The crowd is cheering them on.", "label": 1 }
+{ "premise": "Four competitors in the last leg of a race, strong legs, long strides to the end.", "hypothesis": "The race has just started.", "label": 2 }
+{ "premise": "Five competitors in the last leg of a race, strong legs, long strides to the end.", "hypothesis": "Races can be long and tiring.", "label": 0 }
+{ "premise": "Happy woman eats alone again, chatting with her internet boyfriend at a diner.", "hypothesis": "A woman is eating at a diner.", "label": 0 }
+{ "premise": "Surprised woman eats alone again, chatting with her internet boyfriend at a diner.", "hypothesis": "A man is eating alone at home.", "label": 2 }
+{ "premise": "an old girl in red lifting a girl in blue to the top of a wall and lighting.", "hypothesis": "The girl is wearing green and purple.", "label": 2 }
+{ "premise": "a tall girl in red lifting a girl in blue to the top of a wall and lighting.", "hypothesis": "They are trying to reach something high up.", "label": 1 }
+{ "premise": "a young girl in blue lifting a girl in blue to the top of a wall and lighting.", "hypothesis": "The girl is lifting the other girl.", "label": 0 }
+{ "premise": "A gentleman in a striped shirt gesturing with an orange object in his hand while passersby stare at him.", "hypothesis": "A gentleman in a striped shirt gesturing", "label": 0 }
+{ "premise": "A gentleman in a striped shirt gesturing with a big object in his hand while passersby stare at him.", "hypothesis": "A gentleman in a striped shirt not gesturing", "label": 2 }
+{ "premise": "A gentleman in a striped shirt gesturing with a stick-like object in his hand while passersby wave at him.", "hypothesis": "A gentleman in a striped shirt joyously gesturing", "label": 1 }
+{ "premise": "Several firemen walk on a gray roof while working.", "hypothesis": "Several fireman are putting out a fire on a gray roof.", "label": 1 }
+{ "premise": "Several firemen stand or sit on a orange roof while working.", "hypothesis": "Several fireman are playing cards indoors.", "label": 2 }
+{ "premise": "Several firemen talk on a gray roof while working.", "hypothesis": "Several fireman are working on a gray roof.", "label": 0 }
+{ "premise": "A man standing on a street in the city playing the piano.", "hypothesis": "A man is sitting on a bench.", "label": 2 }
+{ "premise": "A man sitting on a street in the city playing the accordion.", "hypothesis": "An accordion being played by a man on the street.", "label": 0 }
+{ "premise": "A woman standing on a street in the city playing the accordion.", "hypothesis": "A street performer with her accordion.", "label": 0 }
+{ "premise": "City workers in bright yellow and orange safety suits haul a stack of traffic cones through the snow and past the tree trunk.", "hypothesis": "The city workers are sitting under a tree, taking a break.", "label": 2 }
+{ "premise": "City workers in bright yellow and green safety suits haul a stack of traffic cones through the snow and past the fence.", "hypothesis": "There has been so much snow that the city had to buy more traffic cones.", "label": 1 }
+{ "premise": "City workers in bright yellow and green hazmat suits haul a stack of traffic cones through the snow and past the tree trunk.", "hypothesis": "City workers are moving traffic cones through the snow.", "label": 0 }
+{ "premise": "A woman in swimming trunks plays in the ocean's waves.", "hypothesis": "A man is surfing out on the ocean.", "label": 2 }
+{ "premise": "A man in swimming trunks plays on the beach.", "hypothesis": "A man is sitting on a beach.", "label": 0 }
+{ "premise": "A man in swimming trunks plays in the indoor pool's waves.", "hypothesis": "A man is outdoors.", "label": 2 }
+{ "premise": "A skiier in a red jacket flies through the air, above a hill of snow, and next to a red and white sign.", "hypothesis": "The snowboarder is on a ski lift.", "label": 2 }
+{ "premise": "A snowboarder in a red jacket is above a hill of snow, and next to a red and white sign.", "hypothesis": "The snowboarder has gotten air.", "label": 1 }
+{ "premise": "A professional snowboarder in a red jacket flies through the air, above a hill of snow, and next to a red and white sign.", "hypothesis": "The snowboarder is a professional.", "label": 0 }
+{ "premise": "A male singer holding a microphone singing at a concert.", "hypothesis": "a woman singer is singing", "label": 2 }
+{ "premise": "A male singer holding a microphone singing at a concert.", "hypothesis": "2pac is singing at home", "label": 1 }
+{ "premise": "madonna holding a microphone singing at a concert.", "hypothesis": "madonna is singing at a concert", "label": 0 }
+{ "premise": "A woman carrying the 2012 Olympic torch being follow by a car on a people lined street.", "hypothesis": "a man stole the 2012 olympic torch and runs from a police officer", "label": 2 }
+{ "premise": "A gentleman carrying the 2012 Olympic torch being pass by a car on a people lined street.", "hypothesis": "a man carries the 2012 olympic torch down a street while a person in a car tries to pass him", "label": 0 }
+{ "premise": "A gentleman looking at the 2012 Olympic torch being follow by a car on a people lined street.", "hypothesis": "a man carries the 2012 olympic torch while being followed by a car", "label": 1 }
+{ "premise": "A girl is outside jumping over a flower bush on a skateboard.", "hypothesis": "a boy on his skateboard", "label": 2 }
+{ "premise": "A boy is outside jumping over a flower bush on a bike.", "hypothesis": "a boy on his bike", "label": 0 }
+{ "premise": "A boy is outside jumping over a fern bush on a skateboard.", "hypothesis": "a boy on his skateboard he got for Christmas", "label": 1 }
+{ "premise": "A curly-haired redhead is wearing a blue checkered hat, a black long-sleeve shirt, and blue jeans while holding a red jacket as she speaks to her pets standing behind her.", "hypothesis": "A redhead is talking to her friends.", "label": 2 }
+{ "premise": "A curly-haired redhead is wearing a blue checkered hat, a black long-sleeve shirt, and blue jeans while holding a red purse as she speaks to her friends standing behind her.", "hypothesis": "Her friends are telling her to hurry up and put her jacket on.", "label": 2 }
+{ "premise": "A large group of adults and children stand on a cobblestone street outside of an Irish pub.", "hypothesis": "A large group of adults and children stand on a cobblestone street.", "label": 0 }
+{ "premise": "A small group of adults and children stand on a cobblestone street outside of an Irish house.", "hypothesis": "They prepare to go home after a delicious meal", "label": 1 }
+{ "premise": "A small group of adults and children stand on a paved street outside of an Irish pub.", "hypothesis": "The small group stands outside on a stone street", "label": 2 }
+{ "premise": "A small group of adults stand on a cobblestone street outside of an Irish pub.", "hypothesis": "A small group of adults and children stand on a cobblestone street.", "label": 2 }
+{ "premise": "A small group of adults and children angrily stand on a cobblestone street outside of an Irish pub.", "hypothesis": "A small group of adults and children stand happily on a cobblestone street.", "label": 2 }

@@ -1,0 +1,25 @@
+{ "premise": "The people driving the tiny white car were not nearly hit by the train, but it had fortunately stopped just in time.", "hypothesis": "The car was nearly hit by a train.", "label": 2 }
+{ "premise": "A woman looking through what appears to not be a telescope.", "hypothesis": "A woman looking through a telescope toward the sky.", "label": 2 }
+{ "premise": "a redheaded lady is not reading a book while waiting for the train.", "hypothesis": "a woman is reading a book.", "label": 2 }
+{ "premise": "Four girls not looking at objects under a microscope.", "hypothesis": "Four people look at objects under a microscope.", "label": 2 }
+{ "premise": "Two ladies are not looking for bread to purchase.", "hypothesis": "The women are eating bread.", "label": 1 }
+{ "premise": "Two men not boxing a ring while one boxer is not hitting the other.", "hypothesis": "They are playing ring around the rosy.", "label": 1 }
+{ "premise": "A man wearing a red bicycle helmet not talking on a cellphone with other people in the background.", "hypothesis": "A man talks on a cellphone.", "label": 2 }
+{ "premise": "a man in pants not dancing in a park.", "hypothesis": "A man is outside.", "label": 0 }
+{ "premise": "A man wearing a light blue robe-style jacket is sitting on a street corner not playing a musical instrument.", "hypothesis": "The man was playing the guitar on the street.", "label": 2 }
+{ "premise": "As a referee looks on, a Los Angeles baseball player is falling over the top of a rival player who is not just sliding into base.", "hypothesis": "The people are playing basketball.", "label": 2 }
+{ "premise": "An old woman not in a green and blue plaid shirt is standing on a crowded sidewalk smiling.", "hypothesis": "A woman watching a street performer play guitar.", "label": 1 }
+{ "premise": "An elderly woman not wearing sunglasses stands and looks at something.", "hypothesis": "Young woman stomps on her sunglasses.", "label": 2 }
+{ "premise": "A little girl in a red and white shirt does not stand next to some caricatures of celebrities at an art fair.", "hypothesis": "two women paint in a field", "label": 2 }
+{ "premise": "two women not in lab coats looking on a image projected on the wall", "hypothesis": "Some women are in a lab setting.", "label": 2 }
+{ "premise": "Two boys, one wearing green, the other in yellow, are playing with sidewalk chalk, not drawing pictures on the ground.", "hypothesis": "Two boys are drawing pictures with pink chalk.", "label": 2 }
+{ "premise": "A firefighter, not in uniform, looks off into the distance.", "hypothesis": "This firefighter is on duty.", "label": 2 }
+{ "premise": "An entertainer in a black shirt with a red tie and red suspenders, in Toronto, is not playing with fire.", "hypothesis": "Someone is playing with fire.", "label": 2 }
+{ "premise": "A woman in a pink shirt is not painting the last two stars on a painting of the American flag.", "hypothesis": "The woman is painting", "label": 2 }
+{ "premise": "A man in an orange construction vest does not walk in a parade with a child atop his shoulders, carry balloons.", "hypothesis": "The child has no legs.", "label": 1 }
+{ "premise": "A group of people are not running in the cold.", "hypothesis": "A bunch of people moving briskly on a cold day", "label": 2 }
+{ "premise": "Two guys not sitting in a room with green and white curtain.", "hypothesis": "Two guys are playing golf.", "label": 1 }
+{ "premise": "A woman in a tan top and jeans is sitting on a bench not wearing headphones.", "hypothesis": "A woman is listening to music.", "label": 2 }
+{ "premise": "A musician with short blond-hair and not wearing a blue scarf and vest plays a string instrument while singing.", "hypothesis": "Nobody has a scarf.", "label": 0 }
+{ "premise": "During this vacation children are not enjoying their games at the park.", "hypothesis": "The kids are home", "label": 1 }
+{ "premise": "One little toddler not wearing blue pajamas and a little girl wearing red pajamas opening presents on christmas day.", "hypothesis": "A grown man sits and weeps.", "label": 2 }
